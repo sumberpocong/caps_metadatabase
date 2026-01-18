@@ -1,0 +1,14 @@
+[project]
+name = "data-learn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apache-airflow-providers-google>=19.3.0",
+    "astronomer-cosmos>=1.12.1",
+    "dbt-bigquery>=1.11.0",
+    "ipykernel>=7.1.0",
+    "mysql-connector-python>=9.5.0",
+    "notebook>=7.5.2",
+]
